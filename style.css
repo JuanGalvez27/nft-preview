@@ -1,0 +1,195 @@
+body{
+    
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+}
+
+.container{
+    display: flex;  
+    background-color: hsl(216, 50%, 16%);
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.subcontainer{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.main-image{
+    display: flex;
+}
+
+
+.over{
+    display: flex;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 30%);
+    height: 310px;
+    width: 310px;
+    /* z-index: 999; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    transition: 0.7s;
+} 
+
+.over:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+.over img{
+    position: absolute;
+
+}
+
+.nft{   
+    top: 0;
+    align-items: center;
+    /* position: absolute; */
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+
+
+
+
+.text-first{
+    font-weight: bold;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    transition: color 0.7s;
+}
+
+.text-first:hover{
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
+.text-second{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 18%, 40%);
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.text-thirth{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.symbol{
+    display: flex;
+}
+.value{
+    display: flex;
+    padding-left: 5px;
+}
+
+.text-thirthtwo{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    color: hsl(215, 18%, 40%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.clock{
+    display: flex;
+}
+
+.days{
+    display: flex;
+    padding-left: 5px;
+}
+
+.ETH{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+
+}
+.attribution { 
+    color:hsl(215, 18%, 40%);
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.subtext{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 18%, 40%)
+}
+
+.subtext p{
+    padding-left: 10px;
+    color: var(--so)
+}
+.subtext span{
+    color: white;
+    transition: color 0.7s;
+    
+}
+
+.subtext span:hover{
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
